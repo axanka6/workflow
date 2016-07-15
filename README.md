@@ -1,7 +1,7 @@
 
 <div align="center">
     <a href="http://www.covalent.com.br/" target="_blank" title="Workflow">
-        <img src="http://covalent.com.br/images/logotipo/default.png" alt="Workflow of the Covalent.com.br">
+        <img src="http://covalent.com.br/images/logotipo/black.png" width="250px" alt="Workflow of the Covalent.com.br">
     </a>
 </div>
 
