@@ -1,28 +1,18 @@
 
-<div align="center">
-    <a href="http://www.covalent.com.br/" target="_blank" title="Workflow">
-        <img src="http://covalent.com.br/images/logotipo/black.png" width="250px" alt="Workflow of the Covalent.com.br">
-    </a>
-</div>
+
+<a href="http://www.covalent.com.br/" target="_blank" title="Workflow">
+    <img src="http://covalent.com.br/images/logotipo/black.png" width="250px" alt="Workflow of the Covalent.com.br">
+</a>
 
 <br>
 
-Modelo do fluxo de trabalho utilizado na empresa. Separado em 4 áreas bem definidas, o modelo tem como principal foco a padronização e agilidade nos processos internos, qualidade do código e entregas rápidas. Não deixe de conferir a [Wiki](https://github.com/angulo-digital/fluxo-trabalho/wiki) do projeto.
+O workflow tem como principal foco a padronização e agilidade nos processos internos, qualidade do código e entregas rápidas, com o minimo de burocracia possível.
 
-[Sugestões](https://github.com/angulo-digital/fluxo-trabalho/issues) são bem vindas :heart:
+##Planning
+- Scrum `Metodologia ágil`
+- [Trello](/planejamento/trello.md) `Controle de tarefas`
 
-##Planejamento
-- Scrum `metodologia ágil`
-- [Trello](/planejamento/trello.md) `controle de tarefas`
-- Planrockr `gerenciamento dos projetos`
-
-##Desenvolvimento
-- [Git Flow](/desenvolvimento/git-flow.md) `fluxo do versionamento`
-- Docker `controle do ambiente local`
-- Code Review `controle de qualidade do código`
-
-##Build
-- Buildkite `ferramenta para controle dos testes`
-
-##Deploy
-- Deployer `ferramenta para controle do deploy`
+##Development
+- [Git Flow](/desenvolvimento/git-flow.md) `Fluxo do versionamento`
+- Vagrant `Controle do ambiente local e compartilhamento`
+- TDD `Controle de qualidade do código`
