@@ -1,6 +1,7 @@
+
 <div align="center">
-    <a href="https://www.mindmeister.com/708801689/fluxo-de-trabalho" target="_blank" title="Mapa mental do Fluxo">
-        <img src="fluxo.jpg" alt="Mapa mental do Fluxo">
+    <a href="http://www.covalent.com.br/" target="_blank" title="Workflow">
+        <img src="covalent.png" alt="Workflow of the Covalent.com.br">
     </a>
 </div>
 
