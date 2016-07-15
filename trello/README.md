@@ -36,12 +36,12 @@ slack.
 
 ## Cards
 
-A estrutura de cards esta intrissicamento ligado a os commits no repositório, temos uma filosofia "um card, um commit", porém no inicio do projeto há bastante atividades que não são ligadas a desenvolvimento. Esses cards devem seguir o mesmo padrão, toda atividade independente da area que pertence é uma task para o projeto, assim temos `Tasks`, `Refact`, `Issue`.
+A estrutura de cards esta intrissicamento ligado a os commits no repositório, temos uma filosofia "um card, um commit", porém no inicio do projeto há bastante atividades que não são ligadas a desenvolvimento. Esses cards devem seguir o mesmo padrão, toda atividade independente da area que pertence é uma task para o projeto, assim temos `Task`, `Refact`, `Issue`.
 
 
-### Tasks
+### Task
 
-A maior partes das atividades são tasks criadas durante o `planning`. O titulo deve ser a descrição da tarefa em uma linha precedida por `Task00 - ` onde há a numeração da tarefa. 
+A maior partes das atividades são tasks criadas durante o `planning`. O titulo deve ser a descrição da tarefa em uma linha precedida por `Task00: ` onde há a numeração da tarefa. 
 
 
 ### Refact   
