@@ -4,8 +4,6 @@
     <img src="http://covalent.com.br/images/logotipo/black.png" width="250px" alt="Workflow of the Covalent.com.br">
 </a>
 
-<br>
-
 O workflow tem como principal foco a padronização e agilidade nos processos internos, qualidade do código e entregas rápidas, com o minimo de burocracia possível.
 
 ##Planning
