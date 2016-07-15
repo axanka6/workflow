@@ -8,9 +8,9 @@ O workflow tem como principal foco a padronização e agilidade nos processos in
 
 ## Planning
 - Scrum `Metodologia ágil`
-- [Trello](/planejamento/trello.md) `Controle de tarefas`
+- [Trello](/trello/) `Controle de tarefas`
 
 ## Development
-- [Git Flow](/desenvolvimento/git-flow.md) `Fluxo do versionamento`
+- [Git Flow](/git/) `Fluxo do versionamento`
 - Vagrant `Controle do ambiente local e compartilhamento`
 - TDD `Controle de qualidade do código`
