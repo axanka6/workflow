@@ -1,4 +1,6 @@
-# Trello
+# Trello Workflow
+
+> Fluxo de planejamento dos projetos.
 
 Para cada projeto temos 2 boards importantes. O board principal é ´Pipeline´
 onde cada cliente pecorre as listas deste boad passando por desenvolvimento 
@@ -27,10 +29,9 @@ slack.
 - Backlog 		`Tasks que serão entregues naquele sprint`
 - Icebox		`Tasks que aguardam algum obstaculo para serem desenvolvidas`
 - Test Of		`Criando os testes para estas tasks`
-- Developing	`implementando as tasks'
+- Developing	`Implementando as tasks`
 - Review		`Code Review manual e automatizado [Codacy]`
-- Production	`Deploy automatizado [DeployBot]`
-- Master		'Feedback positivo em produção e merge'
+- Done			`Taks finalizadas`
 
 
 ## Cards
@@ -48,7 +49,7 @@ A maior partes das atividades são tasks criadas durante o `planning`. O titulo 
 São Tasks que tem por objetivo uma mudança no material, sintaxe ou logica mais que não altere os resultados da tarefa.
 
 
-### Issues
+### Issue
 
 Os issues são incidências de erros após a conclusão de uma Task, reportadas pelo cliente ou durante a revisão do código.
 

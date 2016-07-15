@@ -1,95 +1,29 @@
-# Git Flow
+# Git Workflow
 
 > Fluxo do versionamento dos projetos.
 
-### Repositório principal
 
-**Importante:** Os repositórios relacionados à clientes internos, devem ser **privados**, assim como os seus respectivos forks.
+## Repositório
 
-Todos os projetos devem ser atualizados via pull request. Assim, podemos fazer o Code Review de forma mais eficiente e de acordo com a especificação do mesmo.
-
-O usuário que fizer o fork de um repositório, deve dar acesso de leitura do mesmo aos outros integrantes da equipe.
-
----
-
-No repositório principal devemos ter o branch `master` e um ou mais [branches órfãos](https://git-scm.com/docs/git-checkout/1.7.3.1).
-
-Um bom exemplo de um branch órfão, seria o branch `template`, onde o mesmo deve conter todo o front-end da aplicação.
-
-**Branch master** - É o branch que contém código em nível de produção.
-
-**Branch template** - É o branch órfão que contém todo o front-end da aplicação em nível de produção.
-
-### Nomenclatura de branches para os forks.
-
-Basicamente, em cada pull request, cada branch deve ser uma entrega. Por exemplo, uma pequena lista do que utilizar e do que não utilizar:
-
-#### O que utilizar:
-
-`fix-issue-6789`, `add-modulo-usuarios`, `add-feature-example`, `fix-login-stuff`, `fix4123`, `addSomeFeature` etc.
-
-#### O que não utilizar:
-
-`developer`, `template`, `master`, etc. Estes branches podem ser utilizados como base para o desenvolvedor, mas não para envio de pull requests.
+O titulo do projeto deve ter o mesmo nome do card em `project` e ter um README.md com as instruções para iniciar um projeto, ferramentas utilizadas, configurações de ambiente e etc. 
 
 
-### Padrão de commits
+### Branchs
 
-Este padrão foi baseado no padrão de commits do [repositório do angular.js](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit).
+Cada funcionalidade, refact ou problema corrigido de ser entregue via pull request. Assim o branch deve ter o mesmo titulo do card no `Done` no board do projeto.
 
----
 
-A mensagem deve seguir o seguinte formato:
+### Commits	
 
-```
-<tipo>(<escopo/modulo>): <assunto>
+A mensagem deve seguir o seguinte formato sendo atribuido em cada parte as mesmas informações do card que deu origem aquele projeto.
 
-<corpo da mensagem>
 
-<rodape>
-```
+Tipo00: descrição da task, issue ou refact
 
-Caso seja possível explicar o commit apenas com a primeira linha, pode-se desconsiderar o `corpo da mensagem`.
+Uma descrição mais detalhada, se  necessaia. Quebra de linha perto
+de 72 caracteres com uma linha vazia entre o titulo e a descrição 
+que devera descrever as alteração nos arquivos adcionados.
 
-#### Tipo
+Caso seja necessario separe cada paragrafo por uma linha vazia para
+manter a oganização.
 
-Deve ser um destes:
-
-- **feat**: Uma nova feature
-- **fix**: Um bug fix
-- **docs**: Alterações na documentação
-- **syntax**: Alterações que não afetarão o signifcado/lógica do código (white-space, formatação, falta de ponto e vírgula - em algumas linguagens, etc)
-- **refactor**: Refatoração do código, mas que não é um bug fix e nem adiciona uma nova feature
-- **perf**: Mudança de código que traz uma melhoria de performance
-- **test**: Adicionando/melhorando os testes
-
-#### Escopo ou Módulo
-
-Deve indicar um escopo ou módulo de sistema, área do site, sub-site, área de um aplicativo, etc.
-
-O escopo ou módulo deve ser escrito no singular e o padrão para nomenclatura de um módulo ou escopo específico deve ser seguido por todo o projeto para, futuramente, facilitar buscas, análises e automações.
-
-Exemplos:
-- `fix(usuario): remove incompatibilidade com IE 10` :white_check_mark:
-- `feat(evento): add visualização através de lista e calendário` :white_check_mark:
-- `feat(commit): segue o padrão estabelecido no primeiro commit` :white_check_mark:
-- `feat(users): sai do padrão estabelecido para o módulo de usuários` :x:
-
-#### Assunto
-
-O assunto deve conter uma descrição sucinta sobre a alteração.
-
-- Não começar com letra maiúscula
-- Não utilizar ponto final (.) ao final.
-
-#### Corpo
-
-O corpo deve incluir a motiviação para aquela alteração ter ocorrido e a difereciação em relação ao comportamento anterior.
-
-#### Rodape
-
-O rodapé pode ser utilizado para fechar issues. Ex.:
-
-- `Fix #10`
-- `Fixed #130`
-- `Closes #13, #2, #43`
