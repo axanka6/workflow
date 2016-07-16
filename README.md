@@ -108,8 +108,9 @@ O titulo do projeto deve ter o mesmo nome do card em `project` de `pipeline` e t
 
 Cada funcionalidade, refact ou problema corrigido de ser entregue via pull request. Assim o branch deve ter o mesmo titulo do card no `Done`, porém sem a descrição. Todo projeto tem dois branchs principais, Master e Production. 
 
-Card 	- Tipo00: lorem ipsun dolor
-Branch 	- Tipo00
+Card 	`Tipo00: lorem ipsun dolor`
+<br>
+Branch `Tipo00`
 
 
 #### Production
@@ -135,7 +136,7 @@ A mensagem deve seguir o seguinte formato sendo atribuido em cada parte as mesma
 		descrição que devera descrever as alteração nos arquivos.
 	</p>
 	<p>
-		Caso seja necessario separe cada paragrafo por uma linha vazia para
-		manter a organização das ideias.
+		Caso seja necessario separe cada paragrafo por uma linha vazia<br>
+		para manter a organização das ideias.
 	</p>
 </div>
