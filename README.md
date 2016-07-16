@@ -46,14 +46,14 @@ de um projeto desde o `costumers`, `meeting`, `planning` até `project`.
 O card na lista `project` deve conter o titulo do projeto que deve ser apenas 
 uma palavra e ter os membros responsáveis pelo projeto e a data de entrega além 
 de um checklist que deve conter os passos desenvolvidos durante o `planning` e na 
-sua descrição deve ter informações do cliente, telefone, numero, email e a descrição
+sua descrição deve ter informações do cliente, telefone, email e a descrição
 do projeto. 
 
 
-## @project
+## #project
 
 O segundo board é onde as Tasks definidas em `plannig` serão desenvolvidas. O
-board deve ter o titulo igual o do card em `project` precedido de uma *@* assim 
+board deve ter o titulo igual o do card em `project` precedido de uma *#* assim 
 eles são agrupados no trello e tem uma correspondência direta com o canal no 
 slack.
 
@@ -146,58 +146,6 @@ A mensagem deve seguir o seguinte formato sendo atribuido em cada parte as mesma
 
 > Controle de comunicação.
 
-Para cada projeto temos um canal boards importantes. O board principal é ´Pipeline´
-onde cada cliente pecorre as listas deste boad passando por desenvolvimento 
-de um projeto desde o `costumers`, `meeting`, `planning` até `project`.
-
-
-## Pipeline
-
-O card na lista `project` deve conter o titulo do projeto que deve ser apenas 
-uma palavra e ter os membros responsáveis pelo projeto e a data de entrega além 
-de um checklist que deve conter os passos desenvolvidos durante o `planning` e na 
-sua descrição deve ter informações do cliente, telefone, email e a descrição
-do projeto. 
-
-
-## #project
-
-O segundo board é onde as Tasks definidas em `plannig` serão desenvolvidas. O
-board deve ter o titulo igual o do card em `project` precedido de uma *#* assim 
-eles são agrupados no trello e tem uma correspondência direta com o canal no 
-slack.
-
-### Estrutura interna do board 
-
-- Backlog 		`Tasks que serão entregues naquele sprint`
-- Icebox		`Tasks que aguardam algum obstaculo para serem desenvolvidas`
-- Test Of		`Criando os testes para estas tasks`
-- Developing	`Implementando as tasks`
-- Review		`Code Review manual e automatizado`
-- Done			`Taks finalizadas`
-- Production 	`Task já em produção`
-- Master		`Tasks já incorporadas no branch master`
-
-
-## Cards
-
-A estrutura de cards esta intrissicamento ligado a os commits no repositório, temos uma filosofia "um card, um commit", porém no inicio do projeto há bastante atividades que não são ligadas a desenvolvimento. Esses cards devem seguir o mesmo padrão, toda atividade independente da area que pertence é uma task para o projeto, assim temos `Task`, `Refact`, `Issue`.
-
-
-## Task
-
-A maior partes das atividades são tasks criadas durante o `planning`. O titulo deve ser a descrição da tarefa em uma linha precedida por `Task00: ` onde há a numeração da tarefa. 
-
-
-## Refact   
-
-São Tasks que tem por objetivo uma mudança no material, sintaxe ou lógica mais que não altere os resultados da tarefa. O formato do titulo é o mesmo das `Tasks` mas precedido por `Refact00: `.
-
-
-## Issue
-
-Os issues são incidências de erros após a conclusão de uma Task, reportadas pelo cliente ou durante a revisão do código. O formato do titulo é o mesmo das anteriores só que precedidos por
-`Issue00: `, porém a numeração é atribuida por ordem de reporte.
-
+Para cada projeto temos um canal reservado para a equiṕe envolvida no projeto.
 
 <br>
