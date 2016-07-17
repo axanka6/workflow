@@ -8,25 +8,18 @@
 
 # Workflow
 
-O workflow tem como principal foco a padronização e agilidade nos processos internos, qualidade do código e entregas rápidas, com o minimo de burocracia possível.
+Em nosso workflow todo projeto é uma aplicação o que nos dá agilidade nos processos, somos guiados pelos testes, garantido qualidade de código e o minimo de burocracia possível.
 
 
 ### Ferramentas
 
 - [Trello](https://trello.com/) 		`Controle de tarefas`
-- [Vagrant](http://vagrantup.com/) 		`Ambiente local e compartilhamento`
+- [Slack](https://slack.com/) 			`Comunicação centralizada`
+- [Vagrant](http://vagrantup.com/) 		`Ambiente e compartilhamento`
+- [Bitbucket](https://bitbucket.com/) 	`Versionamento de código`
 - [Planrock](http://planrockr.com/) 	`Controle de metricas`
 - [TDD](http://migre.me/umRFW) 			`Controle de qualidade do código`
-- [Bitbucket](https://bitbucket.com/) 	`Versionamento de código`
 - [Codacy](http://planrockr.com/) 		`Code review`
-
-
-### Convenções
-
-- Todo projeto é uma aplicação
-- Um card, um commit
-- Teste antes do código
-- Metricar para prever
 
 
 <br>
@@ -139,13 +132,5 @@ A mensagem deve seguir o seguinte formato sendo atribuido em cada parte as mesma
 		para manter a organização das ideias.
 	</p>
 </div>
-
-<br>
-
-# Slack
-
-> Controle de comunicação.
-
-Para cada projeto temos um canal reservado para a equiṕe envolvida no projeto.
 
 <br>
