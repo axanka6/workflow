@@ -50,6 +50,8 @@ slack.
 
 ### Estrutura interna do board 
 
+[Development Board Example](https://trello.com/b/JlUd28HU/development-board-example)
+
 - Backlog 		`Tasks que serão entregues naquele sprint`
 - Wating		`Tasks que aguardam algum obstaculo para serem desenvolvidas`
 - Test Of		`Criando os testes para estas tasks`
@@ -58,8 +60,6 @@ slack.
 - Done			`Taks finalizadas`
 - Production 	`Task já em produção`
 - Master		`Tasks já incorporadas no branch master`
-
-- [Trello](https://trello.com/b/JlUd28HU/development-board-example) `Development Board Example`
 
 
 ## Cards
