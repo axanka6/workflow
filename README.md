@@ -1,14 +1,17 @@
-
-
 <a href="http://www.covalent.com.br/" target="_blank" title="Workflow">
-    <img src="http://covalent.com.br/images/logotipo/black.png" width="250px" alt="Workflow of the Covalent.com.br">
+    <img 
+    	alt="Workflow of the Covalent.com.br"
+    	src="http://covalent.com.br/images/logotipo/black.png" 
+    	width="250px">
 </a>
 
 <br>
 
 # Workflow
 
-Em nosso workflow todo projeto é uma aplicação o que nos dá agilidade nos processos, somos guiados pelos testes, garantido qualidade de código e o minimo de burocracia possível.
+Em nosso workflow todo projeto é uma aplicação o que nos dá agilidade nos processos, 
+somos guiados pelos testes, garantido qualidade de código com o minimo de burocracia 
+possível.
 
 
 ### Ferramentas
@@ -17,6 +20,7 @@ Em nosso workflow todo projeto é uma aplicação o que nos dá agilidade nos pr
 - [Slack](https://slack.com/) 			`Comunicação centralizada`
 - [Vagrant](http://vagrantup.com/) 		`Ambiente e compartilhamento`
 - [Bitbucket](https://bitbucket.com/) 	`Versionamento de código`
+- [Codacy](http://migre.me/umRFW) 		`Review automatizado de código`
 - [TDD](http://migre.me/umRFW) 			`Controle de qualidade do código`
 
 
@@ -27,44 +31,45 @@ Em nosso workflow todo projeto é uma aplicação o que nos dá agilidade nos pr
 
 > Planejamento dos projetos.
 
-Para cada projeto temos 2 boards importantes. O board principal é ´Pipeline´
-onde cada card pecorre as listas do Board, passando por desenvolvimento 
-de um projeto. Desde o `costumers`, `meeting`, `planning` até `project`.
+Há 2 boards essenciais o board principal é o ´Pipeline´ onde cada card representa 
+um projeto e pecorre as listas do Board. Desde o primeiro contato com o cliente 
+em `Costumers`. Passa por `Proposal`, `Planning` até se tornar realmente um projeto 
+na lista `project`.
 
 
 ## Pipeline
 
 O card na lista `project` deve conter o titulo do projeto que deve ser apenas 
-uma palavra e ter os membros responsáveis pelo projeto e a data de entrega além 
-de um checklist que deve conter os passos desenvolvidos durante o `planning` e na 
+uma palavra e ter os membros responsáveis pelo projeto e a data do primeiro sprint 
+além de um checklist que deve conter os passos desenvolvidos durante o `planning` e na 
 sua descrição deve ter informações do cliente, telefone, email e a descrição
 do projeto. 
 
 
 ## #project
 
-O segundo board é onde as Tasks definidas no `plannig` serão desenvolvidas pelo time. 
+O segundo board é onde as Tarefas definidas no `plannig` serão desenvolvidas pelo time. 
 O board deve ter o titulo igual o do card em `project` precedido de uma *#* assim 
 eles são agrupados no trello e tem uma correspondência direta com o canal no 
 slack.
+
 
 ### Estrutura interna do board 
 
 [Development Board Example](https://trello.com/b/JlUd28HU/development-board-example)
 
 - Backlog 		`Tasks que serão entregues naquele sprint`
-- Wating		`Tasks que aguardam algum obstaculo para serem desenvolvidas`
+- Hold On		`Tasks que aguardam algum obstaculo para serem desenvolvidas`
 - Test Of		`Criando os testes para estas tasks`
 - Developing	`Implementando as tasks`
 - Review		`Code Review manual e automatizado`
-- Done			`Taks finalizadas`
 - Production 	`Task já em produção`
 - Master		`Tasks já incorporadas no branch master`
 
 
 ## Cards
 
-O padrão de cards esta intrissicamento ligado a os
+O padrão de cards esta intrissicamente ligado a os
 commits no repositório, temos uma filosofia "um card, 
 um commit", porém no inicio do projeto há bastante 
 atividades que não são ligadas a desenvolvimento. 
@@ -75,10 +80,10 @@ projeto, assim temos `Task`, `Refact`, `Issue`.
 
 ## Task
 
-A maior partes das atividades são tasks criadas durante 
-o `planning`. O titulo deve ser a descrição da tarefa em 
-uma linha precedida por `Task00: ` onde há a numeração da 
-tarefa. 
+A maior partes das atividades são tasks, são criadas a partir 
+do refinamento do backlog owner. O titulo deve ser a descrição 
+da tarefa em uma linha precedida por `Task00: ` numeração não 
+reflete necessariamente a priorização das Tasks. 
 
 
 ## Refact   
@@ -94,7 +99,7 @@ O formato do titulo é o mesmo das `Tasks` mas precedido por
 Os issues são incidências de erros após a conclusão de uma Task, 
 reportadas pelo cliente ou durante a revisão do código. O formato 
 do titulo é o mesmo das anteriores só que precedidos por `Issue00:`, 
-porém a numeração é atribuida de acordo com a Task.
+porém a numeração é atribuida de acordo com a Task que contêm os erros.
 
 
 <br>
@@ -117,19 +122,29 @@ ambiente e links para documentação, downloads e etc.
 
 Cada funcionalidade, refact ou problema corrigido de ser entregue 
 via pull request. Assim o branch deve ter o mesmo titulo do card 
-no `Done`, porém sem a descrição. Todo projeto tem dois branchs 
-principais, Master e Production. 
+no `Done`, porém sem a descrição. Todo projeto tem três branchs 
+principais: Master, Production e Review. 
+
+
+##### Notação dos branchs
 
 Card 	`Tipo00: lorem ipsun dolor`
 <br>
 Branch `Tipo00`
 
 
+#### Review
+
+Este é o branch submetido a o code review, garantindo que não haja código 
+sem uso, repetido, complexo e fora de estilo. Apenas código com nota `A` 
+irão para a produção. 
+
+
 #### Production
 
 Este branch é o branch responsável pelo código em produção da aplicação, 
 quando se trabalha com continuous o foco é o código da aplicação. Assim 
-o ultimo teste da aplicação é em produção.
+o ultimo teste da aplicação é sempre em produção.
 
 
 #### Master
@@ -138,13 +153,14 @@ Este branch é o branch final do processo, depois que o código é bem sucedido
 em produção ele vai para este branch.
 
 
+
 ### Commits	
 
 A mensagem deve seguir o seguinte formato sendo atribuido em cada parte as 
 mesmas informações do card que deu origem aquele projeto.
 
 <div>
-	<h4>Tipo00: descrição da task, issue ou refact</h4>
+	<h4>Tipo00: Titulo da task, issue ou refact</h4>
 
 	<p>
 		Uma descrição mais detalhada, se  necessaria. Quebra de linha<br>
