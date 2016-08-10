@@ -144,7 +144,7 @@ A mensagem deve seguir o seguinte formato sendo atribuido em cada parte as
 mesmas informações do card que deu origem aquele projeto.
 
 <div>
-	<h4>Tipo00: descrição da task, issue ou refact</h4>
+	<h4>Tipo00: Titulo da task, issue ou refact</h4>
 
 	<p>
 		Uma descrição mais detalhada, se  necessaria. Quebra de linha<br>
