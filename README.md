@@ -20,7 +20,7 @@ possível.
 - [Slack](https://slack.com/) 			`Comunicação centralizada`
 - [Vagrant](http://vagrantup.com/) 		`Ambiente e compartilhamento`
 - [Bitbucket](https://bitbucket.com/) 	`Versionamento de código`
-- [Codacy](http://migre.me/umRFW) 		`Review automatizado de código`
+- [Codacy](https://codacy.com) 			`Review automatizado de código`
 - [TDD](http://migre.me/umRFW) 			`Controle de qualidade do código`
 
 
@@ -60,7 +60,6 @@ slack.
 
 - Backlog 		`Tasks que serão entregues naquele sprint`
 - Hold On		`Tasks que aguardam algum obstaculo para serem desenvolvidas`
-- Test Of		`Criando os testes para estas tasks`
 - Developing	`Implementando as tasks`
 - Review		`Code Review manual e automatizado`
 - Production 	`Task já em produção`
