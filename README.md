@@ -2,7 +2,7 @@
     <img 
     	alt="Workflow of the Covalent.com.br"
     	src="http://covalent.com.br/images/logotipo/black.png" 
-    	width="250px">
+    	width="150px">
 </a>
 
 <br>
@@ -125,12 +125,6 @@ no `Done`, porém sem a descrição. Todo projeto tem três branchs
 principais: Master, Production e Review. 
 
 
-##### Notação dos branchs
-
-Card 	`Tipo00: lorem ipsun dolor`
-<br>
-Branch `Tipo00`
-
 
 #### Review
 
@@ -139,17 +133,9 @@ sem uso, repetido, complexo e fora de estilo. Apenas código com nota `A`
 irão para a produção. 
 
 
-#### Production
-
-Este branch é o branch responsável pelo código em produção da aplicação, 
-quando se trabalha com continuous o foco é o código da aplicação. Assim 
-o ultimo teste da aplicação é sempre em produção.
-
-
 #### Master
 
-Este branch é o branch final do processo, depois que o código é bem sucedido 
-em produção ele vai para este branch.
+Este branch é o branch responsável pelo código em produção da aplicação.
 
 
 
