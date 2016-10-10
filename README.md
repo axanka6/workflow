@@ -126,16 +126,22 @@ principais: Master, Production e Review.
 
 
 
-#### Review
+#### review
 
 Este é o branch submetido a o code review, garantindo que não haja código 
 sem uso, repetido, complexo e fora de estilo. Apenas código com nota `A` 
 irão para a produção. 
 
 
-#### Master
+#### production
 
-Este branch é o branch responsável pelo código em produção da aplicação.
+Quando se trabalha com continuos o ultimo teste é em produção. 
+
+
+#### master
+
+Este branch é o branch responsável pelo código estável do projeto, este repositório 
+se destina a o código aprovado pelo cliente.
 
 
 
